@@ -3,7 +3,7 @@ services:
 - type: web
   name: Signal-Copier-Telegram-Bot
   runtime: python
-  repo: https://github.com/carsti/Signal-Copier-Telegram-Bot/
+  repo: https://github.com/ogunjobiFX/MT4-MT5-Forex-Signal-Copier-Telegram-Bot
   plan: free
   envVars:
   - key: RISK_FACTOR
@@ -20,7 +20,7 @@ services:
     sync: false
   - key: PYTHON_VERSION
     sync: false
-  - fromGroup: Environment-Signal-Copier-Telegram-Bot
+  - fromGroup: Signal-Copier-Telegram-Bot
   region: frankfurt
   buildCommand: pip install -r requirements.txt
   startCommand: python run.py
