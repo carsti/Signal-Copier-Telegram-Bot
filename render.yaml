@@ -7,19 +7,19 @@ services:
   plan: free
   envVars:
   - key: RISK_FACTOR
-    sync: true
+    sync: false
   - key: ACCOUNT_ID
-    sync: true
+    sync: false
   - key: API_KEY
-    sync: true
+    sync: false
   - key: TELEGRAM_USER
-    sync: true
+    sync: false
   - key: APP_URL
-    sync: true
+    sync: false
   - key: TOKEN
-    sync: true
+    sync: false
   - key: PYTHON_VERSION
-    sync: true
+    sync: false
   - fromGroup: Environment-Signal-Copier-Telegram-Bot
   region: frankfurt
   buildCommand: pip install -r requirements.txt
