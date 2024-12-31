@@ -1,7 +1,7 @@
 # Exported from Render on 2024-12-31T00:01:42Z
 services:
 - type: web
-  name: Signal-Copier-Telegram-Bot
+  name: SignalCopierTelegramBot
   runtime: python
   repo: https://github.com/ogunjobiFX/MT4-MT5-Forex-Signal-Copier-Telegram-Bot
   plan: free
